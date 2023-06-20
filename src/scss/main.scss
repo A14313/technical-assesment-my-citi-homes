@@ -1,0 +1,22 @@
+.form {
+	&__header .row {
+		& > * {
+			// border: 1px dashed red;
+		}
+	}
+	&__header-img {
+		max-width: 100px;
+		width: 100%;
+	}
+
+	&__title {
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 2em;
+	}
+
+	&__header-control-number,
+	.customer-number-label {
+		font-size: 0.8rem !important;
+	}
+}

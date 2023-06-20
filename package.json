@@ -1,0 +1,17 @@
+{
+	"name": "technical-assesment-my-citi-homes",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"start": "rm -rf dist/* && npm install && parcel src/*.html --open",
+		"build": "rm -rf dist/* && parcel build src/*.html --public-url ./"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.9.2",
+		"parcel": "^2.9.2",
+		"sass": "^1.63.4"
+	}
+}
